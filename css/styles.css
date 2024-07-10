@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+main{
+    display: grid;
+    grid-template-columns: 15% auto;
+    gap: 10px;
+    width: 90%;
+    margin-inline: auto;
+}
+#opcion1,#opcion2,#opcion3{
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+h3{
+    font-weight: bold;
+}
+ul{
+    padding: 5% 0 0 5%;
+}
+section{
+    border: 1px solid #ccc;
+    padding: 2% 1% 2% 1%;
+}
+article{
+    border: 1px solid #ccc;
+    margin-top: 5%;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
